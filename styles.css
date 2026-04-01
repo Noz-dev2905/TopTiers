@@ -1,0 +1,91 @@
+body{
+font-family: Arial, sans-serif;
+background:#0f172a;
+color:white;
+margin:0;
+}
+
+header{
+background:#020617;
+padding:20px;
+text-align:center;
+}
+
+h1{
+color:#38bdf8;
+margin-bottom:5px;
+}
+
+input{
+margin-top:10px;
+padding:10px;
+width:250px;
+border-radius:6px;
+border:none;
+}
+
+.filter-buttons{
+margin:20px 0;
+text-align:center;
+}
+
+.filter-buttons button{
+margin:0 5px;
+padding:8px 12px;
+border:none;
+border-radius:5px;
+background:#1e293b;
+color:white;
+cursor:pointer;
+transition:0.2s;
+}
+
+.filter-buttons button:hover{
+background:#38bdf8;
+color:#0f172a;
+}
+
+.cards-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.player-card{
+background:#1e293b;
+padding:15px;
+width:180px;
+border-radius:10px;
+text-align:center;
+transition:0.2s;
+}
+
+.player-card:hover{
+background:#334155;
+}
+
+.player-card img{
+width:80px;
+height:80px;
+border-radius:50%;
+}
+
+.tier-badge{
+display:inline-block;
+padding:3px 6px;
+margin:2px;
+border-radius:4px;
+font-size:12px;
+color:#0f172a;
+font-weight:bold;
+}
+
+.tier-HT1{background:#FFD700;}
+.tier-HT2{background:#C0C0C0;}
+.tier-HT3{background:#CD7F32;}
+.tier-LT1{background:#7FFFD4;}
+.tier-LT2{background:#00CED1;}
+.tier-LT3{background:#20B2AA;}
+.tier-LT4{background:#4682B4;}
+.tier-LT5{background:#6A5ACD;}
