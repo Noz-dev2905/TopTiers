@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TopTiers - Player Profile</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>🏆 TopTiers</h1>
+<p>Player Profile</p>
+<a href="index.html">← Back to Leaderboard</a>
+</header>
+
+<main>
+<div class="profile-container">
+  <div class="profile-header">
+    <img id="player-skin" src="https://crafatar.com/avatars/069a79f444e94726a5befca90e38aaf5" alt="Player Skin">
+    <h2 id="player-name">PvP_God</h2>
+  </div>
+
+  <div class="player-tiers">
+    <h3>Kits & Tiers</h3>
+    <div id="tier-badges">
+      <!-- Tier badges will be populated by JS -->
+    </div>
+  </div>
+
+  <div class="match-history">
+    <h3>Recent Matches</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Opponent</th>
+          <th>Kit</th>
+          <th>Result</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="matches">
+        <!-- Match data populated by JS -->
+      </tbody>
+    </table>
+  </div>
+</div>
+</main>
+
+<footer>
+<p>TopTiers © 2026</p>
+</footer>
+
+<script src="profile.js"></script>
+</body>
+</html>
